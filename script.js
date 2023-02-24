@@ -78,8 +78,16 @@ function darkMode() {
     buttons[i].classList.toggle("dark-mode-button");
   }
   for (let i = 0; i < h2.length; i++) {
-    h2[i].style.color = "white";
+    h2[i].classList.toggle("dark-mode-h2");
   }
+}
+
+// function btn category respo
+
+function btnResponsive() {
+  let btnrepo = document.querySelector(".btn-respo");
+
+  btnrepo.classList.toggle("btn-respo-display");
 }
 
 // appele a la function
