@@ -28,7 +28,7 @@ select.addEventListener("change", function () {
       value +
       "&category=" +
       currentCategory +
-      "&sortBy=publishedAt&apiKey=4469c333482345e5922480a57f05d07d&q=" +
+      "&sortBy=publishedAt&apiKey=b5e101338ce24b57b559e39f411f02fc&q=" +
       inputV
   );
 });
@@ -42,7 +42,7 @@ function changeCategory(category) {
       value +
       "&category=" +
       category +
-      "&sortBy=publishedAt&apiKey=4469c333482345e5922480a57f05d07d&q=" +
+      "&sortBy=publishedAt&apiKey=b5e101338ce24b57b559e39f411f02fc&q=" +
       inputV
   );
 }
@@ -56,7 +56,7 @@ input.addEventListener("change", function () {
       value +
       "&category=" +
       currentCategory +
-      "&sortBy=publishedAt&apiKey=4469c333482345e5922480a57f05d07d&q=" +
+      "&sortBy=publishedAt&apiKey=b5e101338ce24b57b559e39f411f02fc&q=" +
       inputV
   );
 });
@@ -84,5 +84,5 @@ function darkMode() {
 
 // appele a la function
 updateContent(
-  "https://newsapi.org/v2/top-headlines?country=fr&sortBy=publishedAt&apiKey=4469c333482345e5922480a57f05d07d"
+  "https://newsapi.org/v2/top-headlines?country=fr&sortBy=publishedAt&apiKey=b5e101338ce24b57b559e39f411f02fc"
 );
